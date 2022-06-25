@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:monospace;
+    font-size: 14px;
+}
+/* #region  Navbar*/
+nav{
+    border-bottom: 2px solid black;
+    padding: 10px 8px;
+}
+.navbar__button{
+    text-align: center;
+    min-width: 90px;
+    display: inline-block;
+    margin-right:6px;
+    padding: 5px 20px;
+    border:1.5px solid black;
+    border-radius: 12px;
+    background-color: rgb(100, 173, 237);
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease;
+}
+.navbar__button:hover{
+    transition: all 0.5s ease;
+    border-color:rgb(100, 173, 237);
+    color: black;
+    background-color: white;
+    transform:scale(1.1,1.1);
+}
+.button--dpink{
+    background-color: rgb(156, 81, 248);
+}
+.button--dgreen{
+    background-color: rgb(14, 214, 57);
+}
+.button--dpink:hover{
+    border-color:rgb(156, 81, 248);
+}
+.button--dgreen:hover{
+    border-color: rgb(81, 248, 209);
+}
+.navbar__right{
+    display: flex;
+    float: right;
+}
+/* #endregion */
+
+/* #region Table */
+.plan__title{
+    text-align: center;
+    font-size: 3em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.lesson-plan{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.table__container{
+    display: flex;
+    justify-content: center;
+}
+table td,table th{
+    user-select: none;
+    min-width: 80px;
+    text-align: center;
+    padding: 10px 40px;
+    background-color: rgb(17, 84, 255);
+    color: white;
+}
+table{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px;
+}
+.table__time{
+    background-color: azure;
+    color: black;
+}
+
+.table__time:hover{
+    background-color: rgb(121, 236, 240);
+}
+.table__days th{
+    padding: 2px 40px;
+    font-size: 18px;
+    font-family:monospace;
+}
+/* #endregion Table */
+
+/* #region Menu */
+.menu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    border: 1px solid black;
+}
+
+.menu-not{
+    display: none;
+}
+
+/*#endregion*/
+
+/* #region  Lesson Add Page */
+
+.lesson__addpage{
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 12px;
+}
+.lesson__info{
+    margin-right: 100px;
+    font-size: 16px;
+}
+.lesson__item{ 
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.lesson__input{
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+}
+.lesson__selector{
+    width: 100px;
+}
+.lesson__addbutton{
+    margin-top: 20px;
+    padding: 5px 20px;
+    border:1.5px solid black;
+    background-color: rgb(3, 214, 21);
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+/* #endregion  */
+
+/* #regiond Custom */
+.fa-custom{
+    background-color: transparent;
+    padding: 2px 16px;
+    border-radius: 12px;
+    border: none;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+.addBtn{
+    color: rgb(0, 195, 255);
+}
+.delBtn{
+    color: red;
+}   
+.fa-custom i{
+    pointer-events: none;
+}
+.fa-custom:hover{
+    transition: 0.25s ease all;
+    background-color: red;
+    color: white;
+}
+
+.fa-custom--add:hover{
+    background-color: rgb(0, 195, 255)!important;
+}   
+/* #endregion */
+
+/* #region Add Page */
+.addpage{
+    left: 50%;
+    transform: translate(-50%,50%);
+    position: absolute;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    z-index: 2;
+    background-color: white;
+}
+.addpage__field{
+    clear: right;
+    display: flex;
+    justify-content: space-between;
+}
+.addpage:hover{
+    border-color: rgb(0, 72, 255);
+}
+.fa-x{
+    float: right;
+    cursor: pointer;
+    color: rgb(233, 70, 70);
+    margin-bottom: 5px;
+}
+.fa-x:hover{
+    transform: scale(1.2,1.2);
+    color: red;
+    transition: 0.2s all ease;
+}
+.displaynone{
+    display: none!important;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 1;
+}
+/* #endregion */

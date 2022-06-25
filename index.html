@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="AZ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evo</title>
+    <link rel="stylesheet" href="src/css/index.css">
+    <script src="https://kit.fontawesome.com/fd16f8a5c5.js" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+    <div id="background" class="background displaynone">
+
+    </div>
+    <!-- Navbar -->
+    <nav>
+        <a class="navbar__button">Müəllimlər</a>
+        <a class="navbar__button button--dpink">Dəvamiyyət</a>
+        <a class="navbar__button button--dgreen">Conversation</a>
+        <div class="navbar__right">
+            <button class="navbar__button" type="button">Rus Dili</button>
+            <button class="navbar__button" type="button">It</button>
+            <button class="navbar__button" type="button">Alman Dili</button>
+            <button class="navbar__button" type="button">İngilis Dili</button>
+        </div>
+    </nav>
+    <div id="menu" class="menu menu-not">
+        <button type="button" id="addBtn1" >Əlavə et</button>
+        <button type="button" id="delBtn1">Sil</button>
+    </div>
+    <section class="lesson-plan">
+        <h1 class="plan__title">Cədvəl</h1>
+        <div class="table__container">
+            <table id="full-table">
+                <thead>
+                    <tr class="table__days">
+                        <th style="background-color: transparent;">
+                            <button type="button"  class="addBtn fa-custom fa-custom--add"><i
+                                    class="fa-solid fa-pen-to-square "></i></button>
+                            <button type="button" id="delBtn1" class="delBtn fa-custom" type="button"><i
+                                    class="fa-solid fa-trash "></i></button></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </section>
+    <div class="addpage displaynone" id="addpage">
+        <i id="closeBtn" class="fa-solid fa-x"></i>
+        <div class="addpage__field">
+            <span>
+                Müəllim
+            </span>
+            <span class="addpage__teacher">
+                Əli
+            </span>
+        </div>
+        <div class="addpage__field">
+            <span>
+                Gün 
+            </span>
+            <span class="addpage__day">
+                0
+            </span>
+        </div>
+        <input class="addpage__time" type="text">
+        <button class="button" id="addpage__btn" type="button">Əlavə Et</button>
+    </div>
+
+    <script src="src/Js/index.js"></script>
+</body>
+
+</html>

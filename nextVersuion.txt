@@ -1,0 +1,30 @@
+            <!-- <div class="lesson__addpage">
+                <div class="lesson__item">
+                    <span class="lesson__info">Müəllim</span>
+                    <select class="lesson__selector">
+                        <option value="teacher0">Fidan</option>
+                        <option value="teacher1">'</option>
+                        <option value="teacher2">Ə3</option>
+                        <option value="teacher3">4</option>
+                        <option value="teacher4">5</option>
+                        <option value="teacher5">6</option>
+                        <option value="teacher6">7</option>
+                    </select>
+                </div>
+                <div class="lesson__item">
+                    <span class="lesson__info">Gün</span>
+                    <select class="lesson__selector">
+                        <option value="day0">1</option>
+                        <option value="day1">2</option>
+                        <option value="day2">3</option>
+                        <option value="day3">4</option>
+                        <option value="day4">5</option>
+                        <option value="day5">6</option>
+                        <option value="day6">7</option>
+                    </select>
+                </div>
+                <div>
+                    <input class="lesson__input" type="text" placeholder="Vaxtı yazın">
+                </div>
+                <button type="button" class="lesson__addbutton">Əlavə et</button>
+            </div> -->
